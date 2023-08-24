@@ -1,0 +1,67 @@
+*{
+    margin: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-image: radial-gradient(circle at 0% 100%, #6e47bc 0, #4630aa 50%, #001b98 100%);
+}
+h1{
+    margin-top: 4%;
+    text-align: center;
+    margin-bottom: 4%;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #ffff;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+div input[type="text"]{
+    margin-bottom: 2%;
+    font-size: 2rem;
+    border-radius: 10px;
+    border-color: rgb(69, 26, 109);
+}
+
+div button{
+    font-size: 1.5rem;
+    background-color: rgb(49, 27, 150);
+    border-radius: 5px;
+    border: 0 solid transparent;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 2%;
+    color: #ffff;
+}
+
+div button:hover{
+    background-color: rgb(65, 63, 192);
+}
+
+div #resultado{
+    font-size: 1.5rem;
+    color: #ffff;
+}
+
+@media (max-width: 412px) {
+    h1{
+        padding-bottom: 2rem;
+    }
+    input[type="text"]{
+        width: 100%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    div button{
+        margin-top: 2rem;
+    }
+}
+
+
